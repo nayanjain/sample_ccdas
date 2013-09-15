@@ -1,0 +1,13 @@
+Synthetic, clinical data summaries for 683 patients with a total of ~40,000 records
+Data originally obtained from Cypress v1.0 and manually reviewed and modified.
+Patient data parsed into XML files that conform to HL7’s Consolidated Clinical Document Architecture (C-CDA) version 1.1 (July 2012) data structure standard
+Specifically, Continuity of Care Document (CCD) template from C-CDA was used.
+C-CDA standard is a Meaningful Use Stage 2 requirement §170.205(a)(3)
+C-CDA standard available at: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=258
+
+Total of 683 files
+One XML file per patient (=one CCD per patient)
+
+XML files illustrate how to represent patient’s clinical summaries that originate from an EHR in a CCD document, machine readable format.
+
+Each XML file contains several, detailed, section-level comments that complement C-CDA Implementation Guide and enhance users understanding on how clinical data is parsed into CCD document structure.
